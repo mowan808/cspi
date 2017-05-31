@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsPi.Web", "CsPi.Web\CsPi.Web.csproj", "{83CB09EE-304C-408C-A0F2-6BF5E2B922CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsPi.Comm", "CsPi.Comm\CsPi.Comm.csproj", "{E27CD28B-A203-481B-86B9-A936AC63C4A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsPi.Reps", "CsPi.Reps\CsPi.Reps.csproj", "{0671799C-A4EF-4A06-A963-1B46EAF00216}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83CB09EE-304C-408C-A0F2-6BF5E2B922CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83CB09EE-304C-408C-A0F2-6BF5E2B922CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83CB09EE-304C-408C-A0F2-6BF5E2B922CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83CB09EE-304C-408C-A0F2-6BF5E2B922CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E27CD28B-A203-481B-86B9-A936AC63C4A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E27CD28B-A203-481B-86B9-A936AC63C4A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E27CD28B-A203-481B-86B9-A936AC63C4A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E27CD28B-A203-481B-86B9-A936AC63C4A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0671799C-A4EF-4A06-A963-1B46EAF00216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0671799C-A4EF-4A06-A963-1B46EAF00216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0671799C-A4EF-4A06-A963-1B46EAF00216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0671799C-A4EF-4A06-A963-1B46EAF00216}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
