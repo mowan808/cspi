@@ -131,6 +131,16 @@
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CsPi.Comm\CsPi.Comm.csproj">
+      <Project>{E27CD28B-A203-481B-86B9-A936AC63C4A7}</Project>
+      <Name>CsPi.Comm</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CsPi.Reps\CsPi.Reps.csproj">
+      <Project>{0671799C-A4EF-4A06-A963-1B46EAF00216}</Project>
+      <Name>CsPi.Reps</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
